@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    HLInfiniteScrollView *scrollView = [[HLInfiniteScrollView alloc] initWithFrame:CGRectMake(0, 0, 375, 150)];
+    HLInfiniteScrollView *scrollView = [[HLInfiniteScrollView alloc] initWithFrame:CGRectMake(0, 0, 375, 200)];
     scrollView.images = @[
                           [UIImage imageNamed:@"image0"],
                           [UIImage imageNamed:@"image1"],
